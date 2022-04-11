@@ -1,0 +1,161 @@
+/*====================
+=======Structure======
+======================*/
+
+header{
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    /* z-index: 1001; */
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+    /* top: 30vh; ???*/
+    /* width: 90%; ?? */
+    z-index: 1000;
+}
+
+.only-desktop{
+    display: block;
+}
+
+.only-mobile{
+    display: none;
+}
+
+
+/*====================
+========Columns=======
+======================*/
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 30%;
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 65%;
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-one-column{
+    display: flex;
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+/* ========header==========
+===========================
+=========================== */
+
+.top-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.top-menu-logo{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    padding-left: 3%;
+}
+
+.top-menu-search-icon{
+    position: absolute;
+    width: 2%;
+    height: 2rem;
+    top: 50%;
+}
+
+.top-menu-box{
+    width: 50%;
+    padding-left: 3%;
+} 
+
+.top-menu-box input{
+    width: 100%;
+}
+
+.top-menu-icon{
+    padding: 0% 1.5%;
+}
+    
+.top-menu-icon svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+
+@media (max-width:479px) {
+
+  
+   
+
+}
