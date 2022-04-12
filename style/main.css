@@ -402,6 +402,42 @@ img {
     padding: 0% 25%;
 }
 
+.categorys{
+    background-color: #fff;
+    margin-top: 5%;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding: 5.5% 4% 0% 4%;
+    border-bottom: solid 0.1rem #DAE0E6;
+}
+
+.category-title{
+    font-size: 0.7rem;
+}
+
+.category-icon svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.politics{
+    margin-top: 3%;
+    background-color: #fff;
+    margin-bottom: 15%;
+}
+
+.politic-helps{
+    display: flex;
+}
+
+.politic-help-copy{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
 
 
 
