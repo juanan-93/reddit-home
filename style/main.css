@@ -129,23 +129,24 @@ img {
     width: 100%;
     height: 5vh;
     background-color: #fff;
-    
+    padding: 0.3% 0;
 }
 
 .top-menu-logo{
     display: flex;
     justify-content: center;
-    width: 10%;
+    width: 7.5%;
     height: 100%;
-    padding-left: 3%;
+    padding-left: 1%;
 }
 
 .top-menu-search-icon{
     position: absolute;
     width: 2%;
     height: 2rem;
-    top:1vh;
-    left: 20vh;
+    top:1.5vh;
+    left: 16.5vh;
+    color: #A6A8AB;
 }
 
 .top-menu-box{
@@ -154,35 +155,84 @@ img {
 } 
 
 .top-menu-box input{
+    border-radius: 0.3rem;
     width: 100%;
+    border: solid 0.5px #A6A8AB;
+    padding: 1% 0;
+    outline: none;
+    padding-left: 4%;
 }
 
 .top-menu-icon{
-    padding: 0% 1.5%;
+    margin-left: 4%;
+    background-color: #A6A8AB;
+    width: 1.7rem;
+    border-radius: 50%;
 }
     
 .top-menu-icon svg{
+    text-align: center;
     width: 1.5rem;
     height: 1.5rem;
+    border-radius: 50%;
+    padding-left: 8%;
+}
+
+.top-menu-button-start{
+    padding-left:2%;  
+}
+
+.top-menu-button-start button{
+    border: solid 1px;
+    border-color: #0079D3;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    padding: 0% 35%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #0079D3;
+}
+
+.top-menu-button-check-in{
+    padding-left: 3%;
+}
+
+.top-menu-button-check-in button{
+    border: none;
+    border-radius: 1rem;
+    background-color: #0079D3;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5% 12%;
+
 }
 
 .top-menu-user-icon{
-    width: 1rem;
-    height: 1rem;
+    width: 1.7rem;
+    height: 1.5rem;
+    padding-left: 3%;
+    color: #A6A8AB;
 }
 
 .top-menu-arrow-icon{
     width: 1rem;
     height: 1rem;
+    color: #A6A8AB;
 }
 
 .top-menu-arrow-icon svg{
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .trend-title{
-    margin: 1.5% 0%;
+    margin: 1.3% 0%;
+}
+
+.trend-title h4{
+    font-size: 0.9rem;
+    font-weight: lighter;
 }
 
 .trend-image img{
@@ -191,14 +241,17 @@ img {
     border-radius: 8px;
 }
 
+
 .trend-box-texts{
     position: absolute;
-    top: 4%;
+    top: 6.5%;
     color: #fff;
+    padding-left: 0.5%;
 }
 
 .trend-box-text h5{
-    width: 60%;
+    width: 50%;
+    font-size: 0.9rem;
 }
 
 .trend-box-user{
@@ -211,12 +264,48 @@ img {
     border-radius: 50%;
 }
 
-.publications-box{
-    display: flex;
-    background-color: #fff;
-    box-shadow: 0px 0px 5px #000;
+.publication-title h4{
+    padding-top: 2%;
+    font-size: 0.9rem;
+    font-weight: lighter;
 }
 
+.publications-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    font-size: 0.8rem;
+    padding: 1.5% 0;
+    margin-top: 2%;
+    border:solid 1px;
+    border-color: #A6A8AB;
+}
+
+.publications-box-button button{
+    display: flex;
+    border: none;
+    padding: 0.3rem;
+    background-color: transparent;
+}
+
+
+.publications-box-button button svg{
+    width: 1.5rem;
+    height: 2.5vh;
+    color: #0079D3;
+}
+
+.publications-box-button button span{
+    padding-top: 3%;
+    color: #0079D3;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.publications-box span{
+    font-weight: bolder;
+    color: #A6A8AB;
+}
 
 .publications-box-buttons button{
     display: flex;
@@ -227,6 +316,7 @@ img {
 
 .publications-box-buttons button svg{
     width: 1.5rem;
+    color: #A6A8AB;
 }
 
 .publications-box-buttons button span{
@@ -237,21 +327,34 @@ img {
     background-color: #fff;
     margin-top: 3%;
     display: flex;
-    box-shadow: 0px 0px 5px #000;
+    border:solid 1px;
+    border-color: #A6A8AB;
+}
+
+.publication-post-content-like{
+    padding: 1% 0.8% 0 0;
+}
+
+.publication-post-content-like-text{
+    padding-left: 15%;
+    font-size: 0.7rem;
+    font-weight: bolder;
 }
 
 .publication-post-content-like svg{
     width: 1.2rem;
     height: 1.2rem;
     margin-left: 30%;
+    color: #A6A8AB;
 }
 
 .publication-post-content-data{
     display: flex;
+    padding-top: 1%;
 }
 
 .publication-post-content-data-img{
-    width: 4.5%;
+    width: 4%;
     padding-left: 2%;
 }
 
@@ -260,41 +363,74 @@ img {
 }
 
 .publication-post-content-data-name{
-    padding: 0% 1.5%;
+    padding: 0.2% 1.5% 0 1.5%;
+}
+
+.publication-post-content-data-name span{
+    font-size: 0.7rem;
+}
+
+.publication-post-content-data-info{
+    font-size: 0.7rem;
+    padding-top: 0.9%;
+    color: #A6A8AB;
 }
 
 .publication-post-content-data-achievements{
     display: flex;
-    width: 10%;
-    padding: 0% 1.5%;
+    width: 13%;
+    padding: 0.7% 1%;
+}
+
+.publication-post-content-data-achievement{
+    padding: 0% 2%;
 }
 
 .publication-post-content-data-button{
-    padding-left: 15%;
+    padding-left: 13%;
+}
+
+.publication-post-content-data-button button{
+    border: none;
+    border-radius: 50px;
+    background-color: #0079D3;
+    color: #fff;
+    font-weight: bolder;
+    padding:8% 30%;
 }
 
 .publication-post-text{
-    padding-left: 2%;
+    padding: 1% 0  0 2%;
+}
+
+.publication-post-img{
+    text-align: center;
+    padding-top: 3%;
 }
 
 .publication-post-line-buttons{
     display: flex;
-    padding-top: 3%;
+    padding: 2% 0%;
 }
 
 .publication-post-line-buttons button {
     border: none;
     background: transparent;
-    
+    color: #A6A8AB;
+    font-size: 0.8rem;
 }
 
 .publication-post-line-buttons button svg{
-    width: 1rem;  
+    width: 0.9rem;  
 }
+
+
 
 .popular{
     background-color: rgb(12, 12, 12);
     border-radius: 2%;
+    border: solid 1px;
+    border-color: #A6A8AB;
 }
 
 .popular-header-title{
@@ -331,6 +467,10 @@ img {
     padding:0% 5%;
 }
 
+.popular-user-button{
+    padding-right: 10.5%;
+}
+
 .popular-user-button button{
     color: #fff;
     border:none;
@@ -348,6 +488,7 @@ img {
 .popular-button{
     text-align: center;
     background-color: #fff;
+    padding-top: 2%;
 }
 
 .popular-button button{
@@ -356,16 +497,16 @@ img {
     font-weight: bolder;
     font-size: 1rem;
     color: #DAE0E6;
-    padding: 2% 35%;
+    padding: 2.5% 35%;
     border-radius: 50px;
 }
 
-.popular-lista{
+.popular-list{
     background-color: #fff;
-    padding-top: 4%;
+    padding: 4% 0 4% 0;
 }
 
-.popular-lista ul li{
+.popular-list ul li{
     display: inline;
     padding: 0% 2%;
     color: #0079D3;
@@ -377,34 +518,48 @@ img {
     margin-top: 5%;
     display: flex;
     background-color: #fff;
+    border: solid 1px;
+    border-color: #A6A8AB;
 }
 
 .premium-logo{
     padding-top: 5.3%;
-    width: 3rem;
+    width: 15%;
+    height: max-content;
     color: #FF4500;
+}
+
+.premium-text span{
+    font-size: 0.6rem;
 }
 
 .premium-button{
     margin-right: 8%;
+    padding: 3% 0 1% 0;
 }
 
 .premium-content{
     padding: 3% 2%;
 }
 
+.premium-button{
+    text-align: center;
+}
+
 .premium-button button{
+    font-size: 0.9rem;
     border: none;
     background-color: #FF4500;
     color: #fff;
-    font-size: 1.2rem;
     border-radius: 50px;
-    padding: 0% 25%;
+    padding: 2% 29%;
 }
 
 .categorys{
     background-color: #fff;
     margin-top: 5%;
+    border: solid 1px;
+    border-color: #A6A8AB;
 }
 
 .category{
@@ -419,14 +574,16 @@ img {
 }
 
 .category-icon svg{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1.rem;
 }
 
 .politics{
     margin-top: 3%;
     background-color: #fff;
     margin-bottom: 15%;
+    border: solid 1px;
+    border-color: #A6A8AB;
 }
 
 .politic-helps{
@@ -436,7 +593,50 @@ img {
 .politic-help-copy{
     font-size: 0.7rem;
     text-align: center;
+    padding: 10% 0% 2% 0;
 }
+
+.politic-help-reddit{
+    padding: 3% 0% 0 4%;
+}
+
+.politic-help-reddit-text{
+    padding-top: 2%;
+}
+
+.politic-help-reddit-text span{
+    font-size: 0.7rem;
+}
+
+.politic-help-business{
+    padding: 2% 0 0 10%;
+}
+
+.politic-help-business-text span{
+    font-size: 0.7rem;
+}
+
+.button-up{
+    text-align: center;
+    position: sticky;
+    top: 90%;
+}
+
+.button-up button{
+    width: 45%;
+    border:none;
+    background-color: #0079D3;
+    border-radius: 1.5rem;
+}
+
+.button-up button span{
+    font-weight: bolder;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+
+
 
 
 
